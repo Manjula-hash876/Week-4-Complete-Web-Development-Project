@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - TechNova Solutions</title>
+
+    <!-- SEO Meta -->
+    <meta name="description" content="Explore the wide range of IT services offered by TechNova Solutions.">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">TechNova</div>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" aria-label="Home Page">Home</a></li>
+                <li><a href="about.html" aria-label="About Page">About</a></li>
+                <li><a href="services.html" aria-label="Services Page">Services</a></li>
+                <li><a href="contact.html" aria-label="Contact Page">Contact</a></li>
+            </ul>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+                ☰
+            </button>
+        </nav>
+    </header>
+
+    <!-- ===== MAIN CONTENT ===== -->
+    <main>
+
+        <!-- ===== PAGE HEADER ===== -->
+        <section class="page-header">
+            <h1>Our Services</h1>
+            <p>Discover what we can do for your business</p>
+        </section>
+
+        <!-- ===== SERVICES LIST ===== -->
+        <section class="services-section">
+            <div class="services-container">
+
+                <!-- Service 1 -->
+                <article class="service-card">
+                    <img src="images/web-development.jpg" alt="Web Development Service" loading="lazy">
+                    <h2>Web Development</h2>
+                    <p>
+                        We create responsive, scalable, and high-performance websites tailored to your business needs
+                        using modern web technologies.
+                    </p>
+                </article>
+
+                <!-- Service 2 -->
+                <article class="service-card">
+                    <img src="images/cloud.jpg" alt="Cloud Solutions Service" loading="lazy">
+                    <h2>Cloud Solutions</h2>
+                    <p>
+                        Our cloud services help businesses migrate, manage, and optimize their infrastructure for
+                        improved efficiency and scalability.
+                    </p>
+                </article>
+
+                <!-- Service 3 -->
+                <article class="service-card">
+                    <img src="images/consulting.jpg" alt="IT Consulting Service" loading="lazy">
+                    <h2>IT Consulting</h2>
+                    <p>
+                        We provide expert guidance to help you make informed technology decisions and improve your
+                        business processes.
+                    </p>
+                </article>
+
+                <!-- Service 4 -->
+                <article class="service-card">
+                    <img src="images/app-development.jpg" alt="Application Development Service" loading="lazy">
+                    <h2>Application Development</h2>
+                    <p>
+                        Custom application development services to build secure and scalable software solutions for
+                        your business.
+                    </p>
+                </article>
+
+                <!-- Service 5 -->
+                <article class="service-card">
+                    <img src="images/data-analytics.jpg" alt="Data Analytics Service" loading="lazy">
+                    <h2>Data Analytics</h2>
+                    <p>
+                        Transform your data into actionable insights with our advanced analytics and reporting solutions.
+                    </p>
+                </article>
+
+                <!-- Service 6 -->
+                <article class="service-card">
+                    <img src="images/cyber-security.jpg" alt="Cyber Security Service" loading="lazy">
+                    <h2>Cyber Security</h2>
+                    <p>
+                        Protect your business with robust security solutions designed to safeguard your systems and data.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- ===== PRICING / PACKAGES ===== -->
+        <section class="pricing">
+            <h2>Our Packages</h2>
+
+            <div class="pricing-container">
+
+                <article class="price-card">
+                    <h3>Basic</h3>
+                    <p class="price">$99</p>
+                    <ul>
+                        <li>Website Setup</li>
+                        <li>Basic Support</li>
+                        <li>Email Assistance</li>
+                    </ul>
+                    <a href="contact.html" class="btn">Choose Plan</a>
+                </article>
+
+                <article class="price-card">
+                    <h3>Standard</h3>
+                    <p class="price">$199</p>
+                    <ul>
+                        <li>Full Website Development</li>
+                        <li>Cloud Integration</li>
+                        <li>Priority Support</li>
+                    </ul>
+                    <a href="contact.html" class="btn">Choose Plan</a>
+                </article>
+
+                <article class="price-card">
+                    <h3>Premium</h3>
+                    <p class="price">$299</p>
+                    <ul>
+                        <li>Custom Solutions</li>
+                        <li>Advanced Analytics</li>
+                        <li>24/7 Support</li>
+                    </ul>
+                    <a href="contact.html" class="btn">Choose Plan</a>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- ===== CALL TO ACTION ===== -->
+        <section class="cta">
+            <h2>Need a Custom Solution?</h2>
+            <p>Contact us today to discuss your project requirements.</p>
+            <a href="contact.html" class="btn">Get in Touch</a>
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 TechNova Solutions. All rights reserved.</p>
+
+            <div class="social-links">
+                <a href="#" aria-label="Facebook">Facebook</a>
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="Twitter">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== JAVASCRIPT ===== -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
